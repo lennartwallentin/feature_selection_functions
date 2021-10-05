@@ -5,4 +5,8 @@ Feature selection is the technique of finding the minimal subset of features tha
 A benefit of using ensembles of decision tree methods like extreme gradient boosting (XGBoost) is that they provide estimates of feature importance from a trained model. Hence I have created functions that do a form of backward stepwise selection based on the feature importance and a set of other input values with the goal to return the number of features to keep (with the highest feature importance score) in regard to the AUC-score. 
 I have created four functions, two for a more interpretable way of doing feature selection and the other two functions are automated and suitable to use in a data science pipeline especially in those occasions when you want to update your model. 
 
-NOTE: For these functions I use AUC-score as the performance metric to compare the classifier and the number of features to keep, but that could easily be replaced by a F1-score, True Negative Rate, Accuracy, Precision, Recall etc. 
+NOTE: For these functions I use AUC-score as the performance metric to compare the classifier and the number of features to keep, but that could easily be replaced by a F1-score, True Negative Rate, Accuracy, Precision, Recall etc.
+
+This is the structure of the project:
+1. Interpretable Feature Selection 
+2. Automated Feature Selection
