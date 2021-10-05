@@ -7,6 +7,6 @@ I have created four functions, two for a more interpretable way of doing feature
 
 NOTE: For these functions I use AUC-score as the performance metric to compare the classifier and the number of features to keep, but that could easily be replaced by a F1-score, True Negative Rate, Accuracy, Precision, Recall etc.
 
-This is the structure of the project:
+This is the structure of the project 'feature_selection_lennart_wallentin.ipynb':
 1. Interpretable Feature Selection 
 2. Automated Feature Selection
